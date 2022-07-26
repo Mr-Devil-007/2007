@@ -22,7 +22,7 @@ except ImportError:
     os.system('pip2 install request')
     time.sleep(1)
     os.system('Then type: python2 clone.py')
-os.system('xdg-open https://youtube.com/channel/UCoCVfFSoXWVF6_lIPUSMu1w')
+    os.system('xdg-open https://youtube.com/channel/UCoCVfFSoXWVF6_lIPUSMu1w')
 
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, requests, mechanize
 from multiprocessing.pool import ThreadPool
@@ -74,10 +74,9 @@ $$$$$$$/  $$$$$$$$/     $/     $$$$$$/ $$$$$$$$/
 def login():
     os.system('clear')
     print logo
-    print 48 * '\x1b[1;92m~'
-    print '\x1b[1;92m[1]\x1b[1;92m START\x1b[1;92m CLONING'
+    print '\x1b[1;92m[1]  Start Cracking'
     time.sleep(0.05)
-    print '\x1b[1;92m[0]\x1b[1;91m BACK'
+    print '\x1b[1;92m[0] \x1b[1;92m Back'
     time.sleep(0.05)
     action()
 
@@ -85,7 +84,7 @@ def login():
 def action():
     global cpb
     global oks
-    peak = raw_input('\n\x1b[1;92m CHOOSE:\x1b[1;92m')
+    peak = raw_input('\n\x1b[1;92mCHOOSE:\x1b[1;92m')
     if peak == '':
         print '[!] Fill In Correctly'
         action()
@@ -119,7 +118,7 @@ def action():
     print logo
     print 48 * '\x1b[1;92m~'
     jalan('\x1b[1;92m TOTAL IDZ NUMBER: ' + xxx)
-    jalan('\x1b[1;92m CODE YOU CHOOSE: ' + c)
+    jalan('\x1b[1;92m CODE YOU CHOOSE: ' +k+c)
     jalan('\x1b[1;92m TO STOP THIS PROCESS Ctrl+z')
     print 48 * '\x1b[1;92m~'
 
@@ -174,7 +173,6 @@ def action():
     print ' Cloned Accounts Has Been Saved : save/cloned.txt'
     jalan('Note : Your (CP)Accounts Open after 7/10 days')
     print ''
-    print '\n    \n    \n    \n    \n\n\x1b[1;92mThanks For Using Devil_Tool\n\x1b[1;94github\x1b[1;97mhttps://github.com/mrperfect0056'
     raw_input('\n\x1b[1;92m[\x1b[1;92mBack\x1b[1;92m]')
     login()
 
